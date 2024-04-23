@@ -1,7 +1,6 @@
 plugin: redhat.openshift_virtualization.kubevirt
 connections:
-- host: K8S_AUTH_HOST
-  api_key: K8S_AUTH_API_KEY
+- host:
   validate_certs: false
 - namespaces:
   - virt
