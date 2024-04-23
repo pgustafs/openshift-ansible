@@ -1,6 +1,4 @@
 plugin: redhat.openshift_virtualization.kubevirt
 connections:
-- host:
-  validate_certs: false
 - namespaces:
   - virt
