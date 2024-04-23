@@ -2,5 +2,5 @@ plugin: redhat.openshift_virtualization.kubevirt
 connections:
   - namespaces:
       - virt
-    network_name: nic-salmon-owl-93
-host_format: name-
+    network_name: secondary-network
+host_format: name
