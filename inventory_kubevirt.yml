@@ -1,5 +1,4 @@
-- name: return VirtualMachineInstances from namespace virt
-  plugin: redhat.openshift_virtualization.kubevirt
-  connections:
-    - namespaces:
-        - virt
+plugin: kubevirt.core.kubevirt
+connections:
+- namespaces:
+  - kubevirt-ansible
