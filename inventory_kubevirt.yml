@@ -1,0 +1,5 @@
+- name: return VirtualMachineInstances from namespace virt
+  plugin: redhat.openshift_virtualization.kubevirt
+  connections:
+    - namespaces:
+        - virt
