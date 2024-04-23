@@ -3,4 +3,4 @@ connections:
 - namespaces:
   - virt
   #network_name: eth1
-  host_format: name
+- host_format: name
