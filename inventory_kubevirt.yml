@@ -1,4 +1,7 @@
 plugin: redhat.openshift_virtualization.kubevirt
 connections:
+- host: '{{ api_endpoint }}'
+  api_key: '{{ api_token }}'
+  validate_certs: false
 - namespaces:
   - virt
