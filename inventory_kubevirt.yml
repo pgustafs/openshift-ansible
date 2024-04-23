@@ -1,5 +1,6 @@
 plugin: redhat.openshift_virtualization.kubevirt
 connections:
-- namespaces:
-  - virt
-network_name: "virt/bridge-network"
+  - namespaces:
+    - virt
+  network_name: eth1
+host_format: name
