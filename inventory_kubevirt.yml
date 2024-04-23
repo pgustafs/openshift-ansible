@@ -2,3 +2,4 @@ plugin: redhat.openshift_virtualization.kubevirt
 connections:
 - namespaces:
   - virt
+network_name: bridge-network
