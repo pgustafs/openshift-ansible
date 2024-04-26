@@ -3,4 +3,4 @@ connections:
   - namespaces:
       - virt
     network_name: secondary-network
-host_format: name
+host_format: '{name}'
